@@ -1,5 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
+
 import { ZodValidationPipe } from './common/pipes/zod.validation.pipe';
 
 async function bootstrap() {
